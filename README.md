@@ -1,13 +1,13 @@
-# 🛒 E-Commerce Purchase Intent Prediction & Customer Segmentation
+#  E-Commerce Purchase Intent Prediction & Customer Segmentation
 
-## 📌 Project Overview
+##  Project Overview
 In e-commerce, treating every website visitor identically results in operational inefficiency and diluted profit margins. This project builds a data-driven framework in R to decode the "digital body language" of online shoppers and predict real-time purchase intent. 
 
 By analyzing session-level browsing behavior (such as page views, exit rates, and administrative dwell time), we construct predictive classification models that identify high-intent buyers and flag sessions at risk of abandonment. Additionally, we leverage unsupervised learning to uncover hidden customer segments, transforming raw clickstream data into clear, actionable business strategies.
 
 ---
 
-## 💼 Core Business Implications
+##  Core Business Implications
 Models are only as valuable as the strategic decisions they empower. This analytics framework serves as a scalable asset for digital product and marketing teams to:
 * **Optimize Resource Allocation:** Prevent margin erosion by targeting promotional incentives (e.g., real-time 15% discount pop-ups or free shipping thresholds) *only* to on-the-fence shoppers flagged as highly likely to abandon their carts.
 * **Proactive Cart Recovery:** Trigger live-chat interventions or targeted retargeting emails the moment a user's behavior mimics a high exit-rate pattern.
@@ -15,7 +15,7 @@ Models are only as valuable as the strategic decisions they empower. This analyt
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## Tech Stack & Libraries
 * **Language:** R (v4.3+)
 * **Machine Learning & Modeling:** `randomForest`, `caret`, `car`
 * **Data Manipulation & Unsupervised Learning:** `dplyr`, `reshape2`, `stats` (K-Means & PCA)
@@ -23,7 +23,7 @@ Models are only as valuable as the strategic decisions they empower. This analyt
 
 ---
 
-## 📊 Key Insights & Visualizations
+## Key Insights & Visualizations
 
 ### Feature Correlation
 Our exploratory data analysis revealed the interconnected system driving user conversion. Notably, behavioral attributes strongly dictate final outcomes over temporal ones.
@@ -39,7 +39,7 @@ Our exploratory data analysis revealed the interconnected system driving user co
 
 ---
 
-## 🚀 Modeling Approach & Methodology
+## Modeling Approach & Methodology
 
 The project structure navigates through a comprehensive analytics pipeline:
 
@@ -53,7 +53,7 @@ The project structure navigates through a comprehensive analytics pipeline:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```text
 ├── DataAnalyticsFunctions.R   # Source script containing helper evaluation metrics
 ├── Shopper_Intent_Prediction.R # Main R script executing EDA, modeling, and clustering
